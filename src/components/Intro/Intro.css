@@ -1,0 +1,42 @@
+
+.intro {
+    height: 100vh;
+    /*background-image: url("/src/components/Intro/images_intro/intro__background.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 278px;
+}
+
+.intro__span {
+    width: 600px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: white;
+}
+
+.intro_wrapper {
+    max-width: 1240px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.intro__btn button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 193px;
+    height: 60px;
+    left: 920px;
+    background-color: transparent;
+    border: 3px solid #FF0000;
+    border-radius: 25px 0 25px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    color: red;
+}
+.intro__btn:hover {
+    filter: drop-shadow(4px 5px 14px rgba(255, 0, 0, 0.25));
+}
